@@ -1,7 +1,11 @@
 <header class="header">
   <nav class="navbar">
     <div class="navbar-brand">
-      <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}">{{site.title}}</a>
+      <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}">
+        <span> <img style="vertical-align: middle" src="{{{uiRootPath}}}/img/p4guitar-logo-blanc-icon.png" alt="logo"> &nbsp;
+        {{site.title}}
+        </span>
+      </a>
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
         <span></span>
