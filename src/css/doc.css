@@ -814,6 +814,7 @@
 
 /*
 cat  antora-asciidoctor-extensions/tabs-block/styles.css >> p4guitar-ui/src/css/doc.css
+plus quelques ajustements...
 */
 
 .tabs ul {
@@ -832,6 +833,8 @@ cat  antora-asciidoctor-extensions/tabs-block/styles.css >> p4guitar-ui/src/css/
   display: flex;
   font-weight: bold;
   height: 2rem;
+  background-color: white;
+  color: black;
   line-height: 1;
   margin-right: 0.25rem;
   padding: 0 1.5rem;
@@ -848,14 +851,15 @@ cat  antora-asciidoctor-extensions/tabs-block/styles.css >> p4guitar-ui/src/css/
 
 .tabset.is-loading .tabs li:not(:first-child),
 .tabset:not(.is-loading) .tabs li:not(.is-active) {
-  background-color: lightblue;
-  color: white;
+  background-color: lavenderblush;
+  color: black;
+  font-weight: normal;
 }
 
 .tabset.is-loading .tabs li:first-child::after,
 .tabs li.is-active::after {
-  background-color: black;
   content: "";
+  background-color: white;
   display: block;
   height: 3px; /* Chrome doesn't always paint the line accurately, so add a little extra */
   position: absolute;
