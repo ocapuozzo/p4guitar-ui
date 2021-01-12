@@ -829,6 +829,8 @@ plus quelques ajustements...
   align-items: center;
   border: 1px solid black;
   border-bottom: 0;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
   cursor: pointer;
   display: flex;
   font-weight: bold;
@@ -869,7 +871,7 @@ plus quelques ajustements...
 }
 
 .tabset > .content {
-  border: 1px solid gray;
+  border: 1px solid #333;
   padding: 1.25rem;
 }
 
